@@ -1,0 +1,9 @@
+TITLE = "Example: 6 Points Scatter"
+VARIABLES = "X", "Y", "ColorData"
+ZONE T="Points", I=6, F=POINT
+0.0 1.0 10.5
+1.0 2.0 20.3
+2.0 1.5 15.8
+3.0 3.0 30.1
+1.5 0.5 5.2
+2.5 2.5 25.7
