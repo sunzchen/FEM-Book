@@ -1,0 +1,20 @@
+{
+  "Title": "1D two-element truss",
+  "nsd": 1,
+  "ndof": 2,
+  "nnp": 3,
+  "nel": 2,
+  "nen": 2,
+  "E": [ 100, 200 ],
+  "CArea": [ 1, 1 ],
+  "x": [ 0.0, 1.0, 2.0 ],
+  "y": [ 0.0, 0.0, 0.0 ],
+  "IEN": [
+    [ 1, 2 ],
+    [ 2, 3 ]
+  ],
+  "fixed_dof": [ 1, 2, 4, 6 ],
+  "fixed_value": [ 0, 0, 0, 0 ],
+  "force_dof": [ 5 ],
+  "force_value": [ 10.0 ]
+}
